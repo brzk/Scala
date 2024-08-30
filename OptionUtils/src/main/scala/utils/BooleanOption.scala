@@ -1,13 +1,13 @@
 package utils
 
 object BooleanOption {
-  implicit class BooleanOption(option: Option[Boolean]) {
+  implicit class BooleanOptionImplicit(option: Option[Boolean]) {
 
-    def containsTrue(option: Option[Boolean]):Boolean = {
+    def containsTrue():Boolean = {
       option.contains(true)
     }
 
-    def containsFalse(option: Option[Boolean]):Boolean = {
+    def containsFalse():Boolean = {
       option.contains(false)
     }
   }

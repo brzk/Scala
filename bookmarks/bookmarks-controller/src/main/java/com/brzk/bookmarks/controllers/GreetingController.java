@@ -1,6 +1,6 @@
-package com.brzk.bookmarks.controller;
+package com.brzk.bookmarks.controllers;
 
-import com.brzk.bookmarks.models.Greeting;
+
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;

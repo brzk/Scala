@@ -1,4 +1,4 @@
-package com.brzk.bookmarks.models;
+package com.brzk.bookmarks.controllers;
 
 public record Greeting(String message) {
 }
